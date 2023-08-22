@@ -4,6 +4,6 @@ resource "zpa_server_group" "efa_servergroup" {
   enabled           = var.efa_servergroup_enabled
   dynamic_discovery = var.efa_servergroup_dynamic_discovery
   app_connector_groups {
-    id = var.efa_segmentgroup_app_connector_groups_id
+    id = var.efa_servergroup_app_connector_groups_id
   }
 }
