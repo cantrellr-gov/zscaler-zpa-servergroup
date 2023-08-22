@@ -15,6 +15,6 @@ variable "efa_servergroup_dynamic_discovery" {
     default = null
 }
 variable "efa_servergroup_app_connector_groups_id" {
-    type = number
+    type = string
     default = null
 }
